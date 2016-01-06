@@ -1,7 +1,7 @@
 TS react
 ========
 
-A working React typescript skeleton.
+A working React typescript skeleton. Application code is written in ES6 Typescript and compiled for the browser via gulp, typescript, babel and browserify. 
 
 To make the magic
 --------------
