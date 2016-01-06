@@ -7,6 +7,6 @@ gulp.task('buildandtest', shell.task([
   'browserify build\\es5\\app.js -o build\\bundle.js'
 ]));
 
-gulp.task('default', function() {
+gulp.task('default', ['buildandtest'], function() {
     gulp.watch(['src/*.ts', 'src/*.tsx'], ['buildandtest']);
 });

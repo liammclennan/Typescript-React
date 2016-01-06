@@ -2,6 +2,7 @@
   "name": "ts",
   "version": "1.0.0",
   "scripts": {
+    "bootstrap": "npm install && tsd install",
     "likehell": "node node_modules/gulp/bin/gulp.js"
   },
   "babel": {
